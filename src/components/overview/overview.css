@@ -4,10 +4,10 @@
   align-items: center;
   align-self: stretch;
 }
-.overview-data-display-container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.overview-data-display-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .last-month-btn {
   border-radius: 4px;

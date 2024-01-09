@@ -11,18 +11,18 @@ export const Table = () => {
   return (
     <div className="gap-xxxs common-col mr-sm">
       <div>
-        <p className="transaction-heading ft-wt-sm fs-sm ">
+        <p className="transaction-heading ft-wt-sm fs-sm fm-inter">
           Transactions | This Month
         </p>
       </div>
       <div className="table-container gap-xs common-col">
         <div className="common-flex a-center jst-sp-bet">
           <input
-            className="table-input fs-xs"
+            className="table-input fs-xs fm-inter"
             placeholder="Search by order ID..."
           />
           <div className="gap-xs common-flex a-center">
-            <button className="fm-inter sort-btn common-flex a-center">
+            <button className="fm-inter sort-btn common-flex a-center ">
               Sort <img src={SortIcon} alt="sort" />
             </button>
             <button className="fm-inter sort-btn">
@@ -33,15 +33,15 @@ export const Table = () => {
         <div className="">
           <table className="width-full">
             <thead >
-              <tr className="table-heading four-grid">
-                <th className="order-heading text-left">Order ID</th>
-                <th className="order-heading text-left">Order date</th>
-                <th className="order-heading text-left">Order amount</th>
-                <th className="order-heading text-left">Transaction fees</th>
+              <tr className="table-heading four-grid fm-inter">
+                <th className="order-heading text-left ft-wt-sm ">Order ID</th>
+                <th className="order-heading text-left ft-wt-sm ">Order date</th>
+                <th className="order-heading text-left ft-wt-sm ">Order amount</th>
+                <th className="order-heading text-left ft-wt-sm ">Transaction fees</th>
               </tr>
             </thead>
 
-            <tbody className="table-data-container">
+            <tbody className="table-data-container fm-inter">
               {tableData.map(
                 ({ orderId, orderDate, orderAmount, transactionFees }) => {
                   return (
@@ -67,7 +67,7 @@ export const Table = () => {
             </tbody>
           </table>
 
-          <div className="table-footer common-flex a-center j-center">
+          <div className="table-footer common-flex a-center j-center fm-inter">
             <button className="common-flex a-center white-bg mr-xxs ft-btn">
               <img src={PreviousIcon} alt="previous" />
               Previous

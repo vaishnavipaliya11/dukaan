@@ -21,7 +21,7 @@
 .credits-bg {
   background-color: var(--dark-gray-bg);
   padding: 6px 12px;
-  gap:6px;
+  gap: 6px;
   position: sticky;
   bottom: 16px;
 }

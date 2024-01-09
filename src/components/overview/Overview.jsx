@@ -13,7 +13,7 @@ export const Overview = () => {
           </p>
         </div>
       </div>
-      <div className="overview-data-display-container gap-xxxs  ">
+      <div className="overview-data-display-container gap-xxxs  fm-inter">
         {overviewData.map(({ label, data }) => {
           return (
             <div className="common-col gap-xxs overview-data-block">
