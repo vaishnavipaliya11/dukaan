@@ -8,13 +8,13 @@ export const Navbar = () => {
       <div className="nav-sub-container-one">
         <h5 className="nav-heading mr-zero">Payments</h5>
         <div className=" common-flex gp-xxxs a-center">
-          <img src={QuestionMarkIcon} />
+          <img src={QuestionMarkIcon} alt="questionmark"/>
           <p className="fs-xxs mr-zero ft-wt-xs ">How it works</p>
         </div>
       </div>
 
       <div class="input-container">
-        <img src={SearchIcon} className="icon"/>
+        <img src={SearchIcon} className="icon" alt="search"/>
         <input type="text" placeholder="Search features, tutorials, etc."  className="nav-input "/>
       </div>
 

@@ -14,7 +14,7 @@ export const Sidebar = () => {
       <div className="child-sidebar-container">
         <div className="common-flex jst-sp-bet">
           <div className="common-flex">
-            <img src="" />
+            <img src="" alt="logo"/>
             <div className="common-col a-start">
               <p className="text-white mr-zero ft-wt-sm fs-xss">Nishyan</p>
               <p className="text-white mr-zero fs-xs ft-wt-xs op-sm">
@@ -22,14 +22,14 @@ export const Sidebar = () => {
               </p>
             </div>
           </div>
-          <img src="" />
+          <img src="" alt="arrow" />
         </div>
 
         <div>
           {sidebarData.map(({ label, icon }) => {
             return (
               <div className="common-flex a-center">
-                <img src={icon} />
+                <img src={icon} alt={icon}/>
                 <p className="text-white icon-text fm-inter"> {label} </p>
               </div>
             );
@@ -37,7 +37,7 @@ export const Sidebar = () => {
         </div>
       </div>
       <div className="common-flex credits-bg">
-        <img src={CreditIcon} />
+        <img src={CreditIcon} alt="credit"/>
         <div className="common-col a-start">
           <p className="fs-xs ft-wt-xs op-sm text-white mr-zero">
             Available Credits

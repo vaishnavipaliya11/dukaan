@@ -23,10 +23,10 @@ export const Table = () => {
           />
           <div className="gap-xs common-flex a-center">
             <button className="fm-inter sort-btn">
-              Sort <img src={SortIcon} />
+              Sort <img src={SortIcon} alt="sort"/>
             </button>
             <button className="fm-inter sort-btn">
-              <img src={DownloadIcon} />
+              <img src={DownloadIcon} alt="download"/>
             </button>
           </div>
         </div>
@@ -59,7 +59,7 @@ export const Table = () => {
 
           <div className="table-footer common-flex a-center j-center">
             <button className="common-flex a-center white-bg mr-xxs ft-btn">
-              <img src={PreviousIcon} />
+              <img src={PreviousIcon} alt="previous"/>
               Previous
             </button>
 
@@ -79,7 +79,7 @@ export const Table = () => {
 
             <button className="mr-xxs ft-btn common-flex a-center white-bg">
               Next
-              <img src={NextIcon} />
+              <img src={NextIcon} alt="next"/>
             </button>
           </div>
         </div>
