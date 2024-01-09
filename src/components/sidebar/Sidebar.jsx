@@ -1,7 +1,7 @@
 import React from "react";
 import "../../utility.css";
 import "../../style.css";
-// import CreditIcon from "../../assests/creditIcon.svg";
+import CreditIcon from "../../assests/creditIcon.svg";
 // import DownArrow from "../../assests/downArrow.svg";
 // import NishyanLogo from "../../assests/nishyanLogo.svg";
 import "./sidebar.css";
@@ -16,7 +16,7 @@ export const Sidebar = () => {
           <div className="common-flex">
             <img src="" />
             <div className="common-col a-start">
-              <p className="text-white mr-zero ft-wt-sm">Nishyan</p>
+              <p className="text-white mr-zero ft-wt-sm fs-xss">Nishyan</p>
               <p className="text-white mr-zero fs-xs ft-wt-xs op-sm">
                 Visit store
               </p>
@@ -30,14 +30,14 @@ export const Sidebar = () => {
             return (
               <div className="common-flex a-center">
                 <img src={icon} />
-                <p className="text-white icon-text"> {label} </p>
+                <p className="text-white icon-text fm-inter"> {label} </p>
               </div>
             );
           })}
         </div>
       </div>
       <div className="common-flex credits-bg">
-        <img src="" />
+        <img src={CreditIcon} />
         <div className="common-col a-start">
           <p className="fs-xs ft-wt-xs op-sm text-white mr-zero">
             Available Credits

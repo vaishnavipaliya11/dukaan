@@ -123,50 +123,50 @@ export const overviewData = [
 export const sidebarData = [
   {
     label: "Home",
-    icon: "",
+    icon: home,
   },
   {
     label: "Orders",
-    icon: "",
+    icon: OrdersIcon,
   },
   {
     label: "Products",
-    icon: "",
+    icon: ProductIcon,
   },
   {
     label: "Delivery",
-    icon: "",
+    icon: DeliveryIcon,
   },
   {
     label: "Marketing",
-    icon: "",
+    icon: MarketingIcon,
   },
   {
     label: "Analytics",
-    icon: "",
+    icon: AnalyticsIcon,
   },
   {
     label: "Payments",
-    icon: "",
+    icon: PaymentIcon,
   },
   {
     label: "Tools",
-    icon: "",
+    icon: ToolsIcon,
   },
   {
     label: "Discounts",
-    icon: "",
+    icon: DiscountIcon,
   },
   {
     label: "Audience",
-    icon: "",
+    icon: AudienceIcon,
   },
   {
     label: "Appearance",
-    icon: "",
+    icon: AppearanceIcon,
   },
   {
     label: "Plugins",
-    icon: "",
+    icon: PluginsIcon,
   },
 ];

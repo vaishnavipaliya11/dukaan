@@ -1,0 +1,54 @@
+.nav-container {
+  padding: 12px 32px;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid #d9d9d9;
+  background: #fff;
+  height: 3.5rem;
+}
+.nav-heading {
+  color: var(--black-text-clr);
+  font-family: Galano Grotesque;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.gp-xxxs {
+  gap: 6px;
+}
+
+.nav-sub-container-one {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+}
+.nav-input {
+  border-radius: 6px;
+  background-color: var(--input-bg);
+  padding: 9px 16px;
+  color: var(--input-clr);
+}
+.input-container {
+  position: relative;
+  display: flex;
+  width: 400px;
+  padding: 9px 16px;
+  align-items: center;
+  gap: var(--Spacing-spacing-04, 8px);
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+/* Style for the icon */
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px; /* Adjust the left position as needed */
+  width: 12px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  fill: #555;
+  padding: 5px; /* Adjust the fill color as needed */
+}

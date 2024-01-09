@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galano+Grotesque:wght@100;200&display=swap');
+
+
+
 :root {
   --white-text-clr: #ffffff;
   --black-text-clr: #1a181e;
   --gray-text-clr: #4d4d4d;
+  --input-clr:#808080;
   --primary-blue: #146eb4;
 
   --dark-gray-bg: #353c53;
@@ -20,14 +26,21 @@
 .wrap {
   flex-wrap: wrap;
 }
-.gap-xxs {
-  gap: 0.2rem;
+.four-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .gap-xs {
-  gap: 0.5rem;
+  gap: 12px;
+}
+.gap-xxs{
+  gap:16px
+}
+.gap-xxxs{
+  gap:20px
 }
 .gap-xsm {
-  gap: 1rem;
+  gap: 24px;
 }
 .gap-sm {
   gap: 1.5rem;
@@ -65,6 +78,9 @@
 .mr-zero {
   margin: 0;
 }
+.mr-xxs{
+  margin: 5px;
+}
 .mr-ssm {
   margin: 0.5rem;
 }
@@ -75,19 +91,25 @@
   margin: 1rem 0;
 }
 .mr-sm {
-  margin: 1rem;
+  margin: 1.2rem;
 }
 .mr-med {
   margin: 2rem;
 }
+.pd-xs{
+  padding: 2px 0;
+}
 .pd-sm {
-  padding: 0.5rem;
+  padding: 20px;
 }
 .pd-med {
   padding: 1.2rem;
 }
 .op-sm {
   opacity: 0.8;
+}
+.fs-xxs{
+  font-size: 12px;
 }
 .fs-xs {
   font-size: 14px;
@@ -96,12 +118,12 @@
   font-size: 16px;
 }
 .fs-sm {
-  font-size: 1rem;
-  font-weight: revert;
+  font-size:20px;
+
 }
 .fs-med {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 32px;
+
 }
 .ft-wt-xs {
   font-weight: 400;
@@ -115,6 +137,12 @@
 }
 .fs-xbg {
   font-size: 1.5rem;
+}
+.fm-inter{
+  font-family: 'Inter';
+}
+.fm-galano {
+  font-family: 'Galano Grotesque', sans-serif;
 }
 .fm-cur {
   font-family: cursive;
@@ -148,7 +176,7 @@
   color: var(--white-text-clr);
 }
 .text-gray {
-  color: var(--gray-clr);
+  color: var(--gray-text-clr);
 }
 .text-filter {
   color: #9ca3af;
