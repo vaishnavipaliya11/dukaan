@@ -22,44 +22,54 @@ export const Table = () => {
             placeholder="Search by order ID..."
           />
           <div className="gap-xs common-flex a-center">
-            <button className="fm-inter sort-btn">
-              Sort <img src={SortIcon} alt="sort"/>
+            <button className="fm-inter sort-btn common-flex a-center">
+              Sort <img src={SortIcon} alt="sort" />
             </button>
             <button className="fm-inter sort-btn">
-              <img src={DownloadIcon} alt="download"/>
+              <img src={DownloadIcon} alt="download" />
             </button>
           </div>
         </div>
         <div className="">
-          <table className="table-heading four-grid">
-            <th className="order-heading">Order ID</th>
-            <th className="order-heading">Order date</th>
-            <th className="order-heading">Order amount</th>
-            <th className="order-heading">Transaction fees</th>
-          </table>
+          <table className="width-full">
+            <thead >
+              <tr className="table-heading four-grid">
+                <th className="order-heading text-left">Order ID</th>
+                <th className="order-heading text-left">Order date</th>
+                <th className="order-heading text-left">Order amount</th>
+                <th className="order-heading text-left">Transaction fees</th>
+              </tr>
+            </thead>
 
-          <div className="table-data-container">
-            {tableData.map(
-              ({ orderId, orderDate, orderAmount, transactionFees }) => {
-                return (
-                  <table className="four-grid order-row">
-                    <td className="order-id ft-wt-sm fs-xs fm-galano">
-                      {orderId}
-                    </td>
-                    <td className="fs-xs ft-wt-xs fm-galano">{orderDate}</td>
-                    <td className="fs-xs ft-wt-xs fm-galano">{orderAmount}</td>
-                    <td className="fs-xs ft-wt-xs fm-galano">
-                      {transactionFees}
-                    </td>
-                  </table>
-                );
-              }
-            )}
-          </div>
+            <tbody className="table-data-container">
+              {tableData.map(
+                ({ orderId, orderDate, orderAmount, transactionFees }) => {
+                  return (
+                    <>
+                      <tr className="four-grid order-row">
+                        <td className="order-id ft-wt-sm fs-xs fm-galano">
+                          {orderId}
+                        </td>
+                        <td className="fs-xs ft-wt-xs fm-galano">
+                          {orderDate}
+                        </td>
+                        <td className="fs-xs ft-wt-xs fm-galano">
+                          {orderAmount}
+                        </td>
+                        <td className="fs-xs ft-wt-xs fm-galano">
+                          {transactionFees}
+                        </td>
+                      </tr>
+                    </>
+                  );
+                }
+              )}
+            </tbody>
+          </table>
 
           <div className="table-footer common-flex a-center j-center">
             <button className="common-flex a-center white-bg mr-xxs ft-btn">
-              <img src={PreviousIcon} alt="previous"/>
+              <img src={PreviousIcon} alt="previous" />
               Previous
             </button>
 
@@ -79,7 +89,7 @@ export const Table = () => {
 
             <button className="mr-xxs ft-btn common-flex a-center white-bg">
               Next
-              <img src={NextIcon} alt="next"/>
+              <img src={NextIcon} alt="next" />
             </button>
           </div>
         </div>

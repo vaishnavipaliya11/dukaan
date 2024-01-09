@@ -153,6 +153,12 @@
 .gap-bg {
   gap: 2.5rem;
 }
+.text-left{
+  text-align: left;
+}
+.width-full{
+  width: 100%;
+}
 .crousel-img {
   width: 100%;
   height: 30rem;

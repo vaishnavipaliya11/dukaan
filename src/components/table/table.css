@@ -15,6 +15,7 @@
   border-radius: 4px;
   border: 1px solid var(--Black-85, #d9d9d9);
   padding: 12px 12px 24px 12px;
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
 }
 .sort-btn {
   color: var(--Black-30, #4d4d4d);

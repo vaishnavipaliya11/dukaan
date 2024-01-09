@@ -9,9 +9,9 @@ export const Dashboard = () => {
     <div className="main-container">
       <Sidebar />
       <div>
-        <Navbar/>
-        <Overview/>
-        <Table/>
+        <Navbar />
+        <Overview />
+        <Table />
       </div>
     </div>
   );

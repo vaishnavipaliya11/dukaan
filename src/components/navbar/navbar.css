@@ -22,13 +22,19 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  flex: 1 0 0;
 }
 .nav-input {
   border-radius: 6px;
   background-color: var(--input-bg);
   padding: 9px 16px;
   color: var(--input-clr);
+  width: 60%;
+  outline: none;
+  border: transparent;
+  padding: 12px 25px;
+}
+.nav-input:focus {
+  outline: none;
 }
 .input-container {
   position: relative;
@@ -46,9 +52,9 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 10px; /* Adjust the left position as needed */
-  width: 12px; /* Adjust the width as needed */
-  height: 20px; /* Adjust the height as needed */
-  fill: #555;
-  padding: 5px; /* Adjust the fill color as needed */
+  left: 10px;
+  width: 16px;
+  height: 20px;
+
+  padding: 6px 13px;
 }
